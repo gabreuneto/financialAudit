@@ -63,6 +63,18 @@ dotnet run
 
 Acesse a API através do navegador ou de ferramentas como [Swagger](https://swagger.io/).
 
+**Escalabilidade das APIs**
+
+- **Microservices:**
+  - Arquitetura já desenhada para divisão da aplicação em blocos, afim de termos serviços independentes, cada um responsável por uma parte específica da funcionalidade.
+- **Cache:**
+  - Após a implementação do banco de dados, é viável considerar o uso de um serviço de cache distribuido para armazenar dados não sensíveis temporários.
+- **Conteiners:**
+  - Realizar estudo referente ao uso de conteiners. Isso facilita a escalabilidade horizontal, permitindo iniciar várias instâncias de serviços em diferentes servidores.
+- **Banco de Dados Escalável:**
+  - Como ainda não está definido a base de dados, a sugestão é já definir um banco de dados que possa escalar horizontalmente (Ex.: NoSql), pois permite adicionar mais servidores conforme a carga aumenta, além da facilidade devido ao schema-less.
+
+
 **Contribuição**
 
 Contribuições são bem-vindas! Se encontrar problemas ou tiver sugestões, abra uma [issue](https://github.com/seu-usuario/seu-repositorio/issues) ou envie uma solicitação pull.
@@ -70,4 +82,3 @@ Contribuições são bem-vindas! Se encontrar problemas ou tiver sugestões, abr
 **Licença**
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE.md). Consulte o arquivo [LICENSE.md](LICENSE.md) para obter mais detalhes.
-```
