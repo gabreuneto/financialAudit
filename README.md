@@ -1,4 +1,3 @@
-```markdown
 # FinancialAudit
 ## Repository API audit application
 
@@ -34,7 +33,7 @@ Antes de começar, certifique-se de ter instalado:
 
 1. **Clone o repositório:**
 
-   ```
+   ```bash
    git clone https://github.com/gabreuneto/financialAudit.git
    ```
 
@@ -46,7 +45,7 @@ Antes de começar, certifique-se de ter instalado:
 
 3. **Restaure as dependências:**
 
-   ```
+   ```bash
    dotnet restore
    ```
 
@@ -58,7 +57,7 @@ O sistema utiliza DataTable in memory. Caso haja mudança para banco de dados em
 
 Execute a aplicação:
 
-```
+```bash
 dotnet run
 ```
 
